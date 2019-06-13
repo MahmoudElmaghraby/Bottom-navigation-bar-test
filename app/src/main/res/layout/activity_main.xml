@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <android.support.design.widget.BottomNavigationView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      app:menu="@menu/menu_items"
+      android:id="@+id/navview"
+      android:background="#000000"
+      app:itemIconTint="@color/color_item"
+      app:itemTextColor="@color/color_item"
+      />
+  <FrameLayout
+      android:id="@+id/fram_layout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@id/navview"
+      />
+
+
+
+
+
+  <!--<LinearLayout-->
+      <!--android:layout_width="match_parent"-->
+      <!--android:layout_height="wrap_content"-->
+      <!--android:orientation="horizontal"-->
+      <!--&gt;-->
+
+      <!--<TextView-->
+          <!--android:layout_width="wrap_content"-->
+          <!--android:layout_height="wrap_content"-->
+          <!--android:text="NUM 1"-->
+          <!--android:textSize="40sp"-->
+          <!--android:textColor="#fffcfc"-->
+          <!--/>-->
+      <!--<EditText-->
+          <!--android:id="@+id/firstnum"-->
+          <!--android:layout_width="match_parent"-->
+          <!--android:layout_height="wrap_content"-->
+          <!--android:hint="Enter first number"-->
+          <!--android:textSize="30sp"-->
+          <!--android:background="#ffffff"-->
+          <!--/>-->
+
+
+  <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="NUM 2"-->
+            <!--android:textSize="40sp"-->
+            <!--android:textColor="#fffcfc"-->
+            <!--/>-->
+        <!--<EditText-->
+            <!--android:id="@+id/secondnum"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Enter second number"-->
+            <!--android:textSize="27sp"-->
+            <!--android:background="#ffffff"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/plus"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="+"-->
+            <!--android:textSize="30sp"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/divide"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="/"-->
+            <!--android:textSize="30sp"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/minus"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="-"-->
+            <!--android:textSize="30sp"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/multiply"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="*"-->
+            <!--android:textSize="30sp"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+    <!--<TextView-->
+        <!--android:id="@+id/finalresult"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text=""-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="100sp"-->
+        <!--android:background="#ffffff"-->
+        <!--/>-->
+</RelativeLayout>
